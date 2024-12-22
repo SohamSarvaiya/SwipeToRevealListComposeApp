@@ -1,4 +1,4 @@
-package com.scode.swipetoreveallistcomposeapp
+package com.scode.swipetoreveallistcomposeapp.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     topBar = {
                         TopAppBar(
-                            title = { Text(text = "Product List") },
+                            title = { Text(text = "Products List") },
                             modifier = Modifier.background(color = Color.White)
                         )
                     }

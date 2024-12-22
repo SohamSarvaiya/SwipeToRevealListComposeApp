@@ -65,6 +65,7 @@ fun SwipeableItemWithActions(
         ) {
             actions()
         }
+
         Surface(
             modifier = Modifier
                 .fillMaxSize()

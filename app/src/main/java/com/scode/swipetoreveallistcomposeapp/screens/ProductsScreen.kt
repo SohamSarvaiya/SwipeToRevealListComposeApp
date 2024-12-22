@@ -1,4 +1,4 @@
-package com.scode.swipetoreveallistcomposeapp
+package com.scode.swipetoreveallistcomposeapp.screens
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Column
@@ -21,6 +21,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.scode.swipetoreveallistcomposeapp.ActionIcon
+import com.scode.swipetoreveallistcomposeapp.R
+import com.scode.swipetoreveallistcomposeapp.SwipeableItemWithActions
+import com.scode.swipetoreveallistcomposeapp.model.ContactUi
 
 @Composable
 fun ProductsScreen() {
